@@ -6,5 +6,6 @@ let averagePoint = (introduction + git + js)/3;
 
 let userName = "Luba";
 let surname = "Muratova";
+let userName2 = userName.slice(0,-3);
 
-console.log(`Average point for all hometask by ${userName} ${surname}: ${averagePoint}`);
+console.log(`Average point for all hometask by ${userName2}. ${surname}: ${averagePoint}`);
